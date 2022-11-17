@@ -1,0 +1,74 @@
+body{
+  font-family: "Open sans",sans-serif;
+  color: black;
+}
+
+a{
+  color: #d95413;
+}
+/* Hover colors */
+a:hover{
+  color: #131dd9;
+  text-decoration: none; 
+}
+/* Fonts */
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+
+.list-menu > ul > li{
+  list-style: none;
+}
+ 
+
+.custom-search {
+  position: relative;
+  width: 300px;
+}
+.custom-search-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  padding: 10px 100px 10px 20px; 
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* Search button inside the textbox */
+.custom-search-botton {
+  position: absolute;
+  right: 3px; 
+  top: 3px;
+  bottom: 3px;
+  border: 0;
+  background: #d95413;
+  color: #fff;
+  outline: none;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 100px;
+  z-index: 2;
+}
+
+/* Information padding */
+.info{
+  padding: 0;
+  margin-top: 1em;
+}
+/* Body background */
+body{
+  background: whitesmoke;
+}
+
+footer{
+  background: peachpuff;
+  padding: 10px;
+}
+
+.follow{
+  margin: 0;
+  padding-left: 1;
+  list-style: none;
+}
