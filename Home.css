@@ -1,20 +1,12 @@
 body{
   font-family: "Open sans",sans-serif;
-  background: whitesmoke;
+  background-color: peachpuff;
 }
 
 /* Fonts */
 h1,h2,h3,h4,h5,h6 {
   font-family: "Roboto", sans-serif;
 }
-
-
-/* Information padding */
-.info{
-  padding: 0;
-  margin-top: 1em;
-}
-
 
 footer{
   background: peachpuff;
@@ -43,20 +35,25 @@ footer{
   font-size: 2em;
   font-weight: 500;
   color: rgb(63, 33, 214);
+  list-style: none;
 }
 
-
-.ads{
-  object-fit: cover;
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  background-color: rgb(218, 82, 82);
+  padding: 10px;
+  width: 100%;
+  height: 100%;
 }
 
-@media screen and (max-width: 50em){
-  .ads{
-      display: none;
-  }
-}
-@media screen and (max-width: 60em){
-  .ads{
-      display: none;
-  }
+.products{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: peachpuff;
+    border-radius: 10px;
 }
