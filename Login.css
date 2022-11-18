@@ -1,6 +1,6 @@
 .login-box{
     width: 360px;
-    height: 270px;
+    height: auto;
     border-radius: 3px;
     background-color:rgba(184, 8, 8, 0.596);
     padding: 20px;
@@ -14,7 +14,7 @@ h1{
 
 body{
     background-color: peachpuff;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
 }
 
 form input{
@@ -36,6 +36,10 @@ input[type="button"]{
 
 }
 
+.social-icons{
+    display: flex;
+    border-radius: 50%;    
+}
 form label{
     display: flex;
     margin-top: 20px;
@@ -46,8 +50,15 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 
 a{
     margin-left: 10px;
+
+}
+i{
+    padding-left: 100px;
+    color: rgba(17, 42, 155, 0.788);
+    height: auto;
 }
