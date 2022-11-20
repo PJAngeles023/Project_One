@@ -12,38 +12,10 @@ footer{
   background-image: linear-gradient(to bottom right, white , rgb(152, 155, 163));
   padding: 10px;
 }
-
-.footer {
-  position: relative;
-  padding-top: 1em;
-}
-
-.footer .social-media .footer-list {
-  position: relative;
-  margin: 0 0 1.5em 0;
-  display: inline-block;
-  list-style: none;
-}
-
-.footer .social-media .footer-list li {
- float: left; 
- margin-right: 2em;
-}
-
-.footer .social-media .footer-list li a{
-  position: relative;
-  font-size: 2em;
-  font-weight: 500;
-  color: rgb(63, 33, 214);
-  list-style: none;
-}
-
 .card {
   background-color: rgb(246, 238, 234);
   padding: 7%;
 }
-
-
 .products{
     margin-top: 10px;
     margin-left: auto;
@@ -52,18 +24,15 @@ footer{
     border-radius: 10px;
     height: auto;
 }
-
 .price
 {
   color: red;
 }
-
 .buttons
 {
-  position: relative;
-  margin: 0 1.5em 0 1.5em;
-  display: inline-block;
-  list-style: none;
+  width: 40%;
+  color: white;
+  height: 30%;
 }
 
 img{
@@ -72,3 +41,15 @@ img{
 
 .carousel-inner .carousel-item{
   height: 30rem}
+
+@media only screen and (max-width: 1000px){
+  .buttons
+{
+  width: 50%;
+  color: white;
+  height: 30%;
+  margin-left: 25%;
+  margin-top: 20px
+}
+  
+}
