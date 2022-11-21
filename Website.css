@@ -15,7 +15,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
 }
 
-form input {
+.form input {
     width: 100%;
     padding: 7px;
     border: none;
@@ -30,7 +30,7 @@ form input {
     margin-top: 10px;
 }
 
-form label {
+.form label {
     display: flex;
     margin-top: 20px;
     font-size: 15px;
@@ -221,4 +221,7 @@ select[id="sex"]{
   .vl{
     border-left: 6px solid gray;
     height: 300px;
+  }
+  .profileform{
+    display: flex;
   }
