@@ -1,0 +1,224 @@
+/* Login */
+.login-box {
+    width: 500px;
+    height: auto;
+    border-radius: 3px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+.lbody {
+    background: linear-gradient(to right, rgb(40, 82, 235), rgb(119, 79, 239), rgb(0, 0, 0));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+
+.log {
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.plogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.fb {
+    color: white;
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+}
+
+.twitter {
+    color: white;
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+}
+
+.google {
+    color: white;
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+}
+
+.col{
+    margin-top: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+  }
+
+/* Signup */
+.sbody{
+    background: linear-gradient(to right, rgb(40, 82, 235) , rgb(119, 79, 239), rgb(0, 0, 0));
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
+}
+.signup{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+input[type="button"]{
+    width: 100%;
+    height: 35px;
+    margin-top:  20px;
+    border: none;
+    background-color: #49c1a2;
+    font-size: 15px;
+
+}
+select[id="sex"]{
+    width: 99%;
+    height: 35px;
+    border-radius: 6px;
+}
+
+    
+.psignup{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+}
+/* Home */
+.hbody{
+    font-family: "Open sans",sans-serif;
+    background: linear-gradient(to right, rgb(40, 82, 235), rgb(119, 79, 239), rgb(0, 0, 0));
+  }
+  
+  /* Fonts */
+  h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  footer{
+    background-image: linear-gradient(to bottom right, white , rgb(152, 155, 163));
+    padding: 10px;
+  }
+  .card {
+    background-color: rgb(246, 238, 234);
+    padding: 7%;
+  }
+  .products{
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      height: auto;
+  }
+  .price
+  {
+    color: red;
+  }
+  .buttons
+  {
+    width: 40%;
+    color: white;
+    height: 30%;
+  }
+  
+  img{
+    max-width: 100%;
+  }
+  
+  .carousel-inner .carousel-item{
+    height: 30rem}
+  
+  @media only screen and (max-width: 1000px){
+    .buttons
+  {
+    width: 50%;
+    color: white;
+    height: 30%;
+    margin-left: 25%;
+    margin-top: 20px
+  }
+    
+  }
+
+  /* UserHome */
+  .ubody{
+    font-family: "Open sans",sans-serif;
+    background: linear-gradient(to right, rgb(40, 82, 235), rgb(119, 79, 239), rgb(0, 0, 0));
+  }
+  
+  /* Profile */
+
+  
+.list-menu > ul > li{
+    list-style: none;
+  }
+  
+  /* Information padding */
+  .info{
+    margin-top: 0;
+  }
+  
+  section{
+    margin: auto;
+  }
+
+  
+.follow{
+    margin: 0;
+    padding-left: 1;
+    list-style: none;
+  }
+  
+  .logout {
+    transition-duration: 0.4s;
+  }
+  
+  .logout:hover {
+    background-color: red;
+    color: white;
+    width: 125%;
+  }
+  
+  .picture{
+    text-align: center;
+    margin: auto;
+  }
+  
+  .vl{
+    border-left: 6px solid gray;
+    height: 300px;
+  }
