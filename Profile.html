@@ -14,7 +14,6 @@
 </head>
 
 <body class="pbody">
-    <!-- Header start -->
     <!--Main Container Start-->
     <div class="main-container">
         <!-- Menu bar -->
@@ -54,7 +53,7 @@
                         <a class="nav-link text-black" href="/Project 1/top10.html">Become a Seller</a>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link text-black" href="/Project 1/about.html">Our Developers</a>
+                        <a class="nav-link text-black" href="Developers.html">Our Developers</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -68,10 +67,12 @@
     <!-- Nav collapse end -->
     </nav>
     </div>
-    <!-- Header end -->
+    <!-- Menu bar end -->
+
+
     <section>
         <!-- Content start -->
-        <div class="row">
+        <div class="row container-fluid">
             <div class="col-md-3 text-center bg-light">
                 <p><img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                         style="width: 100px; height: 100px; border-radius: 100%;"></p>
@@ -93,7 +94,7 @@
                                     My Purchases</a></li>
                             </a></li>
                             <li class="pb-3 pe-5">
-                                <a href="Home.html" class="btn logout" role="button">
+                                <a href="Index.html" class="btn logout" role="button">
                                     <img
                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAaFJREFUWEftl91RwkAQx/97eYn4YPpwIGcFxg7oQDsROrAD7UCpgFCBIY7vlIAPCszIrXODyRwMEO6SMRkn95jcx2+/dwkNW9QwHrRARRYppaE36UdQuC56ZN9/JTBT8EdXyXxu/ncGSnudJxDfusAYZ+YeiZvL5DPJvjkBpbLTB/NzSZjNccaoly76pYCmsjMg5vvfCycsKLaFy88D6E0XuWKcNGQCMdEwTL4GtkBpeMbZmRZon/b+l4be5bn8horCZPGgpa3Vh1Lp34Hp0XRenRAVRKThBFTcTZbWUeZkMjP5uUbToeizAnqVQSB4NSZAZhfWBqT9Zc1qDCDYkS4mZmvTdNPl0DnKMn+xTXLH9ptJz9x3kskaB6Ql2JhsHQN0sSU5w6lmHSorJ2koA9BO7fFK+0tYu1Nv2dnoeWqLsl0HPZQY805RYPJniTGDa1Tp2BfStdayFsglKzfaZACcahwT5X146Z5a90PMpAtw+VXFGKQpqhkU+cMjLyo9KG7nJ86HPBt1EdRsDf+lslHa5nGbvU6Dos0DtntboCKN/QC9oE40hOptfQAAAABJRU5ErkJggg==" />
                                     Logout</a>
@@ -102,13 +103,13 @@
                     </div>
                 </div>
             </div>
-            <div class="info row col-sm-9">
+            <div class="info row col-sm-9 ps-4">
                 <h3 class="mt-3">Profile</h3>
                 <hr>
                 <div class="col">
-                    <p class="pt-5">Name: <span><input type="text" value="Juan Dela Cruz"></span></p>
+                    <p class="pt-4">Name: <span><input type="text" value="Juan Dela Cruz"></span></p>
                     <p class="pt-2">Username: <span class="fw-bold">Juan0123</span></p>
-                    <p class="pt-2">Email: <span>Juan0123@yahoo.com </span><a href="" class="ps-1">Change email</a></p>
+                    <p class="pt-2">Email: <span>Juan0123@yahoo.com <a href="" class="ps-1">Change email</a></span></p>
                     <p class="pt-2">Phone Number: <span>+639****67123 </span><a href="" class="ps-1">Change</a></p>
                     <form action="" class="pt-2">
                         Gender: 
@@ -119,18 +120,17 @@
                             <input type="radio" id="Others" name="gender" value="Others">
                             <label for="Others" class="pe-2">Others</label>
                     </form>
-                    <p class="pt-2">Date of Birth: <span><input type="date" value="2020-01-01"></span></p>
-                    <p class="pt-2 text-center"><button class="btn btn-danger btn-lg">Save</button></p>
                 </div>
                 <div class="picture col">
-                    <div class="vl"><p><img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    <div class="vl"><p class="ms-2"><img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                         style="width: 100px; height: 100px; border-radius: 100%;"></p>
-                        <a href="#" class="btn btn-dark" role="button">Select Image</a>
-                        <p class="text-secondary mt-2">File size must be 
+                        <a href="#" class="btn btn-dark ms-2" role="button">Select Image</a>
+                        <p class="text-secondary mt-2 ms-2">File size must be 
                             maximum of 1MB</p>
                     </div>
                 </div>
-
+                <p class="pt-2">Date of Birth: <span><input type="date" value="2020-01-01"></span></p>
+                    <p class="pt-2 text-center"><button class="btn btn-danger btn-lg">Save</button></p>
             </div>
     </section>
     <!-- Content end -->

@@ -226,9 +226,25 @@ select[id="sex"]{
   }
   
   .vl{
-    border-left: 6px solid gray;
-    height: 300px;
+    border-left: 5px solid gray;
+    height: 200px;
   }
   .profileform{
     display: flex;
+  }
+
+  /* Developers */
+  .dbody{
+    background-image: url("http://www.hdwallpaperspulse.com/wp-content/uploads/2017/02/18/fantastic-street-background.jpg");
+    background-size: 100%;
+  }
+
+.devhead {
+    text-shadow: 2px 2px 5px black;
+    color: white;
+  }
+
+  .devstyle {
+    text-shadow: 2px 2px 5px black;
+    color: white;
   }
