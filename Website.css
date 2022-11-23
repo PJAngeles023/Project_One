@@ -175,6 +175,7 @@ select[id="sex"] {
   background-size: cover;
 }
 
+
 /* Fonts */
 h1,
 h2,
@@ -405,19 +406,19 @@ section {
   }
 
   .memory {
-    padding-top: 5.5em
+    padding-top: 7em
   }
 
   .version {
-    padding-top: -1em;
+    padding-top: 3em;
   }
 
   .image {
-    padding-top: 21em
+    padding-top: 25em
   }
 
   .sensor {
-    margin-bottom: -2em
+    margin-bottom: 2.5em
   }
 
   .lbody {
@@ -493,6 +494,9 @@ section {
 
   .devcol {
     margin-right: 4em;
+  }
+  .logbtn{
+    margin-top: 1em;
   }
 }
 
