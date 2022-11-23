@@ -17,7 +17,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body class="dbody">
+<body class="selbody">
     <!--Main Container Start-->
     <div class="main-container">
         <!-- Nav menu -->
@@ -52,7 +52,7 @@
                         <a class="nav-link text-light" href="#">Become a Seller</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="Developers.html">Our Developers</a>
+                        <a class="nav-link text-light" href="UserDevelopers.html">Our Developers</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -60,6 +60,16 @@
                     <button class="btn btn-outline-light ms-2" style="font-weight:bold" type="submit">Search</button>
                 </form>
 
+                <p class="ms-3">
+                    <button type="button" class="btn"><a href="Profile.html"><img
+                                src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                style="border-radius: 100%;
+                    width: 60px;
+                    height: 60px;
+                    margin-top: 15px;">
+                        </a>
+                    </button>
+                <p>
             </div>
     </div>
 
@@ -68,24 +78,30 @@
     </div>
 
     <!-- Content -->
-    <section class="mt-3">
 
-        <h2 class="text-center fw-bold devhead">Developers</h2>
-        <hr style="height:10px; border-width:3; color:rgb(255, 255, 255); background-color:rgb(255, 255, 255)">
+    <section class="mt-3">
+        <h2 class="text-center fw-bold mt-3 devhead"> Good Day! Welcome to Upstore Online Shop<br>
+            We are here to help you grow your business<br></h2>
         <div class="container">
-            <div class="row mt-3">
-                <div class="col">
-                    <p><img src="PicturesDev/PatrickAngeles.png" class="devcol"></p>
+            <div class="sellerbox">
+                <h4>Please fill up the seller registration form</h4>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
                 </div>
-                <div class="col">
-                    <h2 class="fw-bold devhead">Patrick Jerowin M. Angeles</h2>
-                    <p class="fw-bold mt-4 devstyle">Full-Stack Developer trainee<br>
-                        Upstore Online Shop Developer<br>
-                        Have a background in Game Development, Back-End
-                    </p>
-                    <h2 class="fw-bold devhead mt-3">Contact Details</h2>
-                    <p class="fw-bold devhead mt-3">Email: <span>angeles.patrickjerowin@yahoo.com</span></p>
-                </div>
+                <form class="form">
+                    <label for="lname">Shop Name</label>
+                    <input type="text" placeholder="" value="MangJuan's Shop">
+                    <label for="lname">Shop Address</label>
+                    <input type="text" placeholder="" value="Motortown, Market Market, BGC, Taguig City">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="" disabled="" value="Juan0123@yahoo.com">
+                    <label for="tel">Phone Number</label>
+                    <input type="text" placeholder="" disabled=""value="+639456767123">
+                    <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#">
+                        Proceed
+                    </button>
+                </form>
+                
             </div>
         </div>
     </section>
