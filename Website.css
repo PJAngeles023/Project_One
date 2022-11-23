@@ -7,12 +7,20 @@
   margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
-  background-color: white;
+  background-image: url("https://png.pngtree.com/back_origin_pic/04/52/41/1e950a40263c4477e2be814bbb5ce89b.jpg");
+  background-size: cover;
+  opacity: 0.95;
 }
 
 .lbody {
-  background: linear-gradient(to right, rgb(40, 82, 235), rgb(119, 79, 239), rgb(0, 0, 0));
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
+  background-image: url("https://images.alphacoders.com/552/thumb-1920-552067.jpg");
+  height: 100%;
+  width: 100%;
+  background-image: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form input {
@@ -41,6 +49,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  color: white
 }
 
 
@@ -75,8 +84,14 @@ button:hover {
 
 /* Signup */
 .sbody {
-  background: linear-gradient(to right, rgb(40, 82, 235), rgb(119, 79, 239), rgb(0, 0, 0));
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
+  background-image: url("https://images.alphacoders.com/552/thumb-1920-552067.jpg");
+  height: 100%;
+  width: 100%;
+  background-image: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .signup {
@@ -87,7 +102,10 @@ button:hover {
   padding: 20px;
   background-color: white;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
+  background-image: url("https://png.pngtree.com/back_origin_pic/04/52/41/1e950a40263c4477e2be814bbb5ce89b.jpg");
+  background-size: cover;
+  opacity: 0.95;
 }
 
 h1 {
@@ -105,6 +123,12 @@ input[type="button"] {
 
 }
 
+.terms{
+  color: white;
+    text-shadow: 5px 5px 10px black;
+    font-size: 17px;
+}
+
 select[id="sex"] {
   width: 99%;
   height: 35px;
@@ -114,15 +138,22 @@ select[id="sex"] {
 
 .psignup {
   text-align: center;
-  padding-top: 20px;
   font-size: 15px;
+  text-shadow: 2px 2px 5px black;
+  color: white;
 }
 
 /* Home */
 .hbody {
-  font-family: "Open sans", sans-serif;
-  background: linear-gradient(to right, rgb(40, 82, 235), rgb(119, 79, 239), rgb(0, 0, 0));
-}
+  background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/11/10/60057/shopping-07.jpg");
+  height: 100%;
+  width: 100%;
+  background-image: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
 
 /* Fonts */
 h1,
@@ -168,15 +199,39 @@ img {
 }
 
 .graph {
-  padding-top: 2.5em
+  padding-top: 12em
 }
 
 .display {
+  padding-top: 3em
+}
+
+.ram{
   padding-top: 1.5em
 }
 
+.os{
+  padding-top: 1.5em
+}
+
+.sdisplay{
+  padding-top: 1.5em
+}
+
+.camera{
+  padding-top: 5.5em
+}
+
+.memory{
+  padding-top: 3.8em
+}
+
+.version{
+  padding-top: 1.7em
+}
+
 .image {
-  padding-top: 3em
+  padding-top: 21em
 }
 
 .carousel-inner .carousel-item {
@@ -210,19 +265,22 @@ img {
   }
 
   .graph {
-    padding-top: 1em
+    padding-top: 10.5em
   }
 
   .display {
-    margin-top: -1.5em
+    padding-top: 1.5em
   }
 
   .camera {
-    padding-top: 1.4em
+    padding-top: 6.9em
   }
 
+  .memory{
+    padding-top: 5em
+  }
   .image {
-    padding-top: 3em
+    padding-top: 21em
   }
 
   .lbody {
@@ -233,28 +291,57 @@ img {
   .login-box {
     width: 100%;
     height: 100%;
+    background-size: cover;
+    background-position: bottom;
   }
 
   .sbody {
     width: 100%;
     height: 100%;
+    background-size: cover;
+    opacity: 0.95;
   }
 
   .signup {
     width: 100%;
     height: 100%;
+    background-size: cover;
   }
   .dbody{
     background-size: cover;
   }
 
+  .hbody{
+    background-size: cover;
+    background-position: right;
+  }
+  .ubody{
+    background-size: cover;
+    background-position: right;
+  }
+  .lbody{
+    background-size: cover;
+    background-position: bottom;
+  }
+  .sbody{ 
+    background-size: cover;
+    background-position: bottom;
+  }
+  .vl{
+    visibility: hidden;
+  }
 }
 
 
 /* UserHome */
 .ubody {
-  font-family: "Open sans", sans-serif;
-  background: linear-gradient(to right, rgb(40, 82, 235), rgb(119, 79, 239), rgb(0, 0, 0));
+  background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/11/10/60057/shopping-07.jpg");
+  height: 100%;
+  width: 100%;
+  background-image: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 .avatar {
@@ -309,7 +396,7 @@ section {
 
 .vl {
   border-left: 5px solid gray;
-  height: 200px;
+  height: 400px;
 }
 
 .profileform {
@@ -317,13 +404,16 @@ section {
 }
 
 /* Developers */
-.dbody {
+.dbody{
   background-image: url("https://wallpaperaccess.com/full/2484120.jpg");
   height: 100%;
   width: 100%;
   background-image: cover;
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
 }
 
 .devhead {
