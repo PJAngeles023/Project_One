@@ -52,6 +52,12 @@
   color: white
 }
 
+.navbar{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/097/710/original/santas-workshop-vector.jpg");
+  background-position: center;
+}
+
+
 
 .fb {
   color: white;
@@ -166,8 +172,11 @@ h6 {
 }
 
 footer {
-  background-image: linear-gradient(to bottom right, white, rgb(152, 155, 163));
-  padding: 10px;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/097/710/original/santas-workshop-vector.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .card {
@@ -385,8 +394,8 @@ section {
 }
 
 .nav-item:hover {
-  background-color: white;
-  color: white;
+  background-color: red;
+  opacity: 0.85;
 }
 
 .picture {
